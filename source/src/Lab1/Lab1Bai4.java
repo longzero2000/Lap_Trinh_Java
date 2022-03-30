@@ -10,7 +10,7 @@ package Lab1;
  */
 import java.util.Scanner;
 
-public class Lab4Bai1 {
+public class Lab1Bai4 {
     public static void main(String[] args) {
         double a, b, c;
         Scanner scanner = new Scanner(System.in);

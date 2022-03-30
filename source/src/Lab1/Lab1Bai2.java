@@ -9,7 +9,7 @@ import java.util.Scanner;
  *
  * @author Nguyễn Văn Hải Long
  */
-public class Lab2Bai1 {
+public class Lab1Bai2 {
     public static void main (String[] args)
     {
         Scanner scanner = new Scanner(System.in);
