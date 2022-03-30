@@ -4,7 +4,6 @@
  */
 package Lab2;
 
-import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
 /**
@@ -13,7 +12,6 @@ import javax.swing.JOptionPane;
  */
 public class Lab2Bai5 {
     public static void main(String args[]) {
-        JFrame mainFrame = new JFrame("Vi du JOptionPane trong Java Swing");
            String cauhoi = "Bộ định tuyến có tên tiếng Anh là?";
            String thongbao = "Bạn trả lời sai rồi!";
            String clientGesture = JOptionPane.showInputDialog(cauhoi);
