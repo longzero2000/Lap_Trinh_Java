@@ -2,7 +2,6 @@ package Lab3;
 
 import java.util.Arrays;
 import java.util.Scanner;
-import java.text.DecimalFormat;
 /**
  *
  * @author Nguyễn Văn Hải Long
@@ -10,7 +9,6 @@ import java.text.DecimalFormat;
 public class Lab3Bai3 {
     public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
-    DecimalFormat decimalFormat = new DecimalFormat("#.##");
     System.out.print("Nhập số phần tử của mảng: ");
         int n = scanner.nextInt();
         int  [] mang = new int [n];
