@@ -37,14 +37,50 @@ public class Lab3Bai4 {
     }
     //Xuất
     static void Xuat(){
-        System.out.println("Danh sách sinh viên");
         for(int i=0; i<index;i++){
-            System.out.println("\n"+(i+1)+".Tên:" + HoTen[i]+"\nĐiểm "+Diem[i]);
+            System.out.println("\n"+(i+1)+".Tên:" + HoTen[i]+"\nĐiểm "+Diem[i]+"\tHọc lực:"+HocLuc(Diem[i]));
         } 
     }
-    
+    //Xếp loại
+    static String HocLuc(double diem){
+        String XepLoai;
+        if (diem < 5){
+            XepLoai="Yếu";
+        }else if (diem<6.5){
+            XepLoai= "Trung bình";
+        }else if (diem<7.5){
+            XepLoai="Khá";
+        }else if (diem<9){
+            XepLoai ="Giỏi";
+        }else{
+            XepLoai ="Xuất sắc";
+        }
+        return XepLoai;
+    }
+    //Sắp xếp
+    public static void SapXep(){
+        System.out.println("\n--Sắp xếp theo điểm tăng dần--");
+        for(int i=0; i<index-1;i++){
+            for(int j=1; j<index;j++){
+                if(Diem[i]>Diem[j]){
+                    //Hoán vị điểm
+                    double tempDiem = Diem[i];
+                    Diem[i] = Diem[j];
+                    Diem[j] = tempDiem;
+                    //Hoán vị Họ và Tên
+                    String tempHoTen = HoTen[i];
+                    HoTen[i] = HoTen[j];
+                    HoTen[j] = tempHoTen;
+                }
+            }
+            Xuat();
+        }
+    }
+//Main  
     public static void main(String[] args) {
         Nhap();
+        System.out.println("Danh sách sinh viên");
         Xuat();
+        SapXep();
     }
 }
