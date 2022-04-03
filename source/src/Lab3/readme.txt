@@ -21,6 +21,10 @@ o	Giỏi: 7.5<= điểm < 9
 o	Xuất sắc: điểm >= 9
 	Sắp xếp danh sách sinh viên đã nhập tăng dần theo điểm
 
-BÀI 5 (2 ĐIỂM)
-Giảng viên cho thêm
+BÀI 5 (2 ĐIỂM) - Giảng viên cho thêm
+Viết chương trình GUI mã hóa chuỗi đã cho bằng mật mã Caesar (độ dịch chuyển sinh viên tự cho)
+Hướng dẫn:
++ Tách chuỗi nhập vào mảng
++ Kí tự ascci gốc + độ dịch chuyển = kí tự mã hóa
++ Sử dụng JOptionPane
 
