@@ -6,10 +6,13 @@ import java.util.Scanner;
  *
  * @author Nguyễn Văn Hải Long
  */
-    public class SanPham {
+public class SanPham {
     private String tenSP;
     private double donGia;
     private double giamGia;
+
+    SanPham() {
+    }
 
     public String getTenSP() {
         return tenSP;
