@@ -15,5 +15,7 @@ Viết chương trình tạo 2 sản phẩm có giảm giá và không giảm gi
 BÀI 4 (2 ĐIỂM)
 Nâng cấp lớp SanPham bằng cách khai báo các trường dữ liệu với đặc tả truy xuất là private để hạn chế truy xuất trực tiếp đến các trường này sau đó bổ sung các phương thức getter và setter để đọc ghi dữ liệu các trường.
  
-BÀI 5 (2 ĐIỂM)
-Giảng viên cho thêm
+BÀI 5 (2 ĐIỂM) - Sinh viên tự nghĩ thêm
+Thực hiện tương tự bài 1 nhưng xuất ra dạng giao diện bảng
+HƯỚNG DẪN:
++ Sử dụng Java Swing | JTable

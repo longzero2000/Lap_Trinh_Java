@@ -68,7 +68,4 @@ public class SanPham {
     private double getThueNhapKhau() {
         return donGia * 0.1;
     }
-    
-    
-
 }
