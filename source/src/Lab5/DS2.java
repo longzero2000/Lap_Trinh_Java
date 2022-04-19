@@ -18,12 +18,12 @@ public class DS2 {
     public void nhap() {
         ds.clear();
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Nhap danh sach ho ten");
+        System.out.println("Nhập danh sách họ tên:");
         while (true) {
-            System.out.print("Nhap ho ten: ");
+            System.out.print("Nhập họ tên: ");
             String ten = scanner.nextLine();
             if (ten.isEmpty()) {
-                System.out.println("Nhap du lieu thanh cong!");
+                System.out.println("Nhập dữ liệu thành công!");
                 break;
             }
             ds.add(ten);
