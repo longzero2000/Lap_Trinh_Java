@@ -68,7 +68,7 @@ public class DS2 {
         int chon = 0;
         do {
             System.out.println("\nMenu chương trình");
-            System.out.println("1. Nập danh sách họ tên");
+            System.out.println("1. Nhập danh sách họ tên");
             System.out.println("2. Hiển thị danh sách họ tên");
             System.out.println("3. Sắp xếp ngẫu nhiên");
             System.out.println("4. Sắp xếp giảm dần và xuất danh sách");

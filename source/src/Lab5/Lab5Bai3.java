@@ -10,11 +10,9 @@ package Lab5;
  */
 public class Lab5Bai3 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        DanhSachSanPham ds = new DanhSachSanPham();
+        ds.menu();
     }
     
 }
